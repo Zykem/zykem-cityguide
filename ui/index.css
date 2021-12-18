@@ -1,0 +1,135 @@
+body {
+    background: none !important;
+}
+.title {
+
+    font-family: monospace;
+    position: relative;
+    left: 35%;
+    font-size: 32px;
+
+}
+#container {
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(56, 55, 55);
+    height: 350px;
+    width: 700px;
+    opacity: 95%;
+    margin: 10px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 18px 5px #000000;
+}
+
+
+button.submit {
+    background-color: rgb(197, 101, 12);
+    padding: 12px;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    position: absolute;
+    left: 40%;
+    border-radius: 6px;
+}
+
+button.submit:hover {
+
+    background: #eee;
+    color: rgb(37, 37, 37);
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+.close {
+
+    position: relative;
+    left: 97%;
+    top: -5%;
+    background: transparent;
+    color: rgb(179, 57, 57);
+
+}
+
+
+/* PRODUCT 2 */ 
+
+button.submit2 {
+    background-color: rgb(7, 93, 18);
+    padding: 12px;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    position: absolute;
+    left: 33%;
+    top: 35%;
+    border-radius: 6px;
+}
+button.submit2:hover {
+
+    background: #eee;
+    color: rgb(37, 37, 37);
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+
+/* modul 3 */
+button.submit3 {
+    background-color: rgb(7, 93, 18);
+    padding: 12px;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    position: absolute;
+    left: 36.5%;
+    top: 51%;
+    border-radius: 2px;
+}
+button.submit3:hover {
+
+    background: #eee;
+    color: rgb(37, 37, 37);
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+
+button.nextpage {
+
+    background-color: rgb(72, 73, 72);
+    padding: 12px;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    position: absolute;
+    left: 70%;
+    top: 85%;
+    border-radius: 2px;
+
+}
+button.nextpage:hover {
+
+    background: #eee;
+    color: rgb(37, 37, 37);
+    font-size: 20px;
+    transition: 0.5s;
+
+}

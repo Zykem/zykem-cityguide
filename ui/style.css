@@ -1,0 +1,227 @@
+body {
+    background: none !important;
+}
+.title {
+
+    font-family: monospace;
+    position: relative;
+    left: 42%;
+    font-size: 32px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 70;
+    color: rgb(18, 250, 238);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.35em #1da9cc;
+    user-select: none;
+    white-space: nowrap;
+    filter: blur(0.007em);
+    animation: shake 2.5s linear forwards;
+
+}
+
+
+#container {
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(12, 11, 11);
+    height: 600px;
+    width: 1000px;
+    opacity: 95%;
+    margin: 10px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 18px 5px #000000;
+}
+
+div.headbuttons {
+
+    display: flex;
+    padding: 5px;
+    margin: 5px;  
+    position: relative;
+    left: 04%;
+      
+
+}
+  
+.headbuttons button:nth-child(1) {
+
+    background-color: transparent;
+    border: 2px solid rgb(18, 250, 238);
+    border-radius: 3px;
+    color: white;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    
+    
+
+}
+.headbuttons button:nth-child(2) {
+
+    background-color: transparent;
+    border: 2px solid rgb(18, 250, 238);
+    border-radius: 3px;
+    color: white;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    
+
+}
+
+.headbuttons button:nth-child(3) {
+
+    background-color: transparent;
+    border: 2px solid rgb(18, 250, 238);
+    border-radius: 3px;
+    color: white;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    
+
+}
+
+.headbuttons button:nth-child(4) {
+
+    background-color: transparent;
+    border: 2px solid rgb(18, 250, 238);
+    border-radius: 3px;
+    color: white;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    
+
+}
+
+.headbuttons button:nth-child(5) {
+
+    background-color: transparent;
+    border: 2px solid rgb(18, 250, 238);
+    border-radius: 3px;
+    color: white;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    
+
+}
+
+.title2 {
+
+    font-family: monospace;
+    position: relative;
+    left: 43%;
+    font-size: 32px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 70;
+    color: rgb(18, 250, 238);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.35em #1da9cc;
+    user-select: none;
+    white-space: nowrap;
+    filter: blur(0.007em);
+    animation: shake 2.5s linear forwards;
+
+}
+
+h1.job {
+
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 43%;
+    top: 10%;
+    font-weight: 600;
+
+}
+
+h2.jobdesc { 
+
+
+    font-family: sans-serif;
+    font-size: 16px;
+    position: relative;
+    left: 39%;
+    top: 15%;
+    font-weight: 150;
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+    background-color: black;
+    position: relative;
+    left: 2%;
+    opacity: 100%;
+  }
+
+
+  .pick1 {
+
+    background-color: transparent;
+    border: 1px solid rgb(18, 250, 238);
+    border-radius: 3px;
+    color: white;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    position: relative;
+    left: 35%;
+    top: 17%;
+
+  }
+
+  .pick2 {
+
+    background-color: transparent;
+    border: 1px solid rgb(18, 250, 238);
+    border-radius: 3px;
+    color: white;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    position: relative;
+    left: 35%;
+    top: 17%;
+
+  }
+
+  .pick3 {
+
+    background-color: transparent;
+    border: 1px solid rgb(18, 250, 238);
+    border-radius: 3px;
+    color: white;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    position: relative;
+    left: 35%;
+    top: 17%;
+
+  }

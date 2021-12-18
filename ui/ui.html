@@ -1,0 +1,98 @@
+<html>
+	<head>
+		<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="./script.js" type="text/javascript"></script>
+	</head>
+	<body>
+        
+		<div id="container"> 
+            <h1 class="title">CITY GUIDE</h1>
+			<div class="headbuttons">
+				
+				<button class="cardealerbtn" type="submit" id="cardealerbtn">Car Dealer</button>
+				<button class="drivingschoolbtn"type="submit" id="drivingschoolbtn">Driving School</button>
+				<button class="hospitalbtn"type="submit" id="hospitalbtn">Hospital</button>
+				<button class="policebtn"type="submit" id="policebtn">Police Station</button>
+				<button class="rentbikebtn"type="submit" id="rentbikebtn">Rent a Bike</button>
+
+
+			</div>
+
+			<h1 class="title2">GET A JOB</h1>
+            
+             <!-- Slider main container -->
+<div class="swiper">
+	<!-- Additional required wrapper -->
+	<div class="swiper-wrapper">
+	  <!-- Slides -->
+	  <div class="swiper-slide">
+		<i class="fa fa-info" style="color: rgb(18, 250, 238);font-size: 72px; position: relative; left: 45%; top: 30px;"></i>
+		<h1 class="job">Job #1</h1>
+		<h2 class="jobdesc">Job description</h2>
+		<button class="pick1" id="pick1">Navigate</button>
+
+	  </div>
+	  <div class="swiper-slide">
+
+		<i class="fa fa-info" style="color: rgb(18, 250, 238);font-size: 72px; position: relative; left: 45%; top: 30px;"></i>
+		<h1 class="job">Job #2</h1>
+		<h2 class="jobdesc">Job description</h2>
+		<button class="pick2" id="pick2">Navigate</button>
+
+	  </div>
+	  <div class="swiper-slide">
+
+		<i class="fa fa-info" style="color: rgb(18, 250, 238);font-size: 72px; position: relative; left: 45%; top: 30px;"></i>
+		<h1 class="job">Job #3</h1>
+		<h2 class="jobdesc">Job description</h2>
+		<button class="pick3" id="pick3">Navigate</button>
+
+	  </div>
+	  ...
+	</div>
+	<!-- If we need pagination -->
+	<div class="swiper-pagination"></div>
+  
+	<!-- If we need navigation buttons -->
+	<div class="swiper-button-prev" style="color: white;"></div>
+	<div class="swiper-button-next" style="color: white;"></div>
+  
+	<!-- If we need scrollbar -->
+	<div class="swiper-scrollbar"></div>
+  </div>
+            
+                    
+		</div>
+
+	<script>
+
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: false,
+
+  // If we need pagination
+  
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+
+	</script>
+	</body>
+</html>
